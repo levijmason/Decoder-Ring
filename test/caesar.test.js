@@ -49,7 +49,7 @@ describe("caesar()", () => {
     it("should encode a message by shifting the letters by the shift values", () => {
       let input = "Thinkful";
       let shift = -3;
-      let encode = true;
+      let encode = true; 
 
       let actual = caesar(input, shift, encode);
       let expected = "qefkhcri";
